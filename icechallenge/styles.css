@@ -1,0 +1,57 @@
+/* * {
+    border: 2px solid red;
+} */
+
+body{
+    background-color: lightskyblue ;
+}
+
+header, footer{
+    background-color: rgb(64, 157, 215);
+    padding: 10px;
+}
+
+img{
+    width: 20em;
+    display: block;
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+  }
+  
+ol {
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+  }
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#title:hover{
+    color: black;
+}
+
+#intro{
+    color: white;
+}
+#bold{
+    color: white;
+    font-weight: bold;
+}
+li{
+    padding: 1em;
+}
+
+#quote{
+    margin-left: 17.5em;
+    margin-right: 17.5em;
+}
