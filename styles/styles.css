@@ -2,6 +2,10 @@
     border: 2px solid red;
 } */
 
+/* box-sizing: border-box; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
 
 #content{
     max-width: 1000px;
@@ -9,7 +13,7 @@
 }
 
 body{
-    background-color: rgb(222, 228, 226);
+    background-color: rgb(254, 255, 255);
     margin: 0;
     padding: 0;
 }
@@ -17,6 +21,8 @@ body{
 header, footer{
     background-color: lightblue;
     padding: 20px;
+    margin: auto 0;
+    
 }
 
 .nav_link {
@@ -27,21 +33,35 @@ header, footer{
 
 #main_title{
     color: black;
+    background-color: rgb(240, 238, 238) ;
     text-align: center; 
-    font-size: 3em;
+    font-size: 4em;
+    font-family: 'Bebas Neue', 'Roboto';
+    border-radius: 20px;
 }
 
 img{
     height: auto;
-    width: 20em;
+    width: 35%;
     display: block;
     margin: 0 auto;
+    border-radius: 20px;
 }
 
 p, h3{
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
+
+
+.text {
+  
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgb(240, 238, 238);
+    margin: 3%;
+}
+
 
 nav a{
     text-decoration: none;
@@ -49,10 +69,13 @@ nav a{
 
 nav a:hover{
     background-color: rgb(215, 239, 247);
+    border-radius: 20px;
 }
 
 nav{
     display: flex;
     justify-content: center;
+
 }
+
 
