@@ -12,6 +12,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: #F1FAEE;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #457B9D;
@@ -20,9 +21,17 @@ nav a:hover{
 }
 body {
     background-color: #F1FAEE; 
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #457B9D;
+}
+.home-title {
+    color: #A8DADC;
+    font-family: 'Bebas Neue', 'Rubik', sans-serif;
+    font-size: 6em;
+    margin-top: 10px;
 }
 .button-box{
     text-align: center;
@@ -45,15 +54,20 @@ main section{
 }
 .msg{
     background-color: #457B9D;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #F1FAEE;
 }
 .msg p{
     color: #F1FAEE;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 h2{
     color: #457B9D;
+    margin: 0;
 }
 
 
@@ -62,6 +76,10 @@ h2{
     background-color: #457B9D;
     color: #F1FAEE;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color: #A8DADC;
@@ -76,6 +94,8 @@ h2{
 /*  */
 footer{
     background-color: #457B9D;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #F1FAEE;
@@ -84,10 +104,6 @@ footer a{
 footer a:hover{
     color: #A8DADC;
 }
-.home-title{
-    color: #A8DADC;
-}
-
 footer p {
     font-size: 1.2em;
     color: #F1FAEE ;
@@ -95,15 +111,32 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+footer .social img {
+      padding-top: 15px;
 
+}
 
 /*  */
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;}
+
+.card-img {
+        border: 10px solid #E63946;}
+main section img {
+    box-sizing: border-box;
 }
