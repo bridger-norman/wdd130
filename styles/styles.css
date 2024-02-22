@@ -18,10 +18,12 @@ body{
     padding: 0;
 }
 
+
 header, footer{
     background-color: lightblue;
     padding: 20px;
     margin: auto 0;
+
     
 }
 
