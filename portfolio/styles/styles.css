@@ -90,7 +90,7 @@ header {
     align-self: center;
 }
 
- /* page css */
+ /*---------------------------------------------------- Home css */
 
  #home_grid{
     display: grid;
@@ -121,11 +121,11 @@ header {
     display: block;
     margin: 0 auto;
     border-radius: 20px;
-    justify-items: center;
-    align-items: center;
+    /* justify-items: center;
+    align-items: center; */
 
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    /* transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; */
 
  }
 
@@ -142,8 +142,8 @@ header {
     font-size: 150%;
     padding: 1em;
 
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    /* transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; */
  }
 
 
@@ -179,8 +179,6 @@ header {
     justify-content: center;
     text-align: center;
     /* margin-top: 5em; */
-
-
 }
 
 #home_grid a h2{
@@ -196,7 +194,33 @@ header {
 }
 
 
- /* footer css */
+ /*---------------------------------------------------- Resume css */
+#resume_grid{
+    display: grid;
+    grid-template-columns: .25fr 1fr .25fr ;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#tree{
+    border-radius: 20px;
+    width: 100%;
+    /* opacity: .5; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: 2/3;
+    
+ 
+}
+
+#resume_text{
+    grid-column: 2/3;
+
+}
+
+
+ /*---------------------------------------------------- footer css */
 
  footer{
     background-color: var(--nav-background-color);
