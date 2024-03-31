@@ -221,6 +221,10 @@ header {
     z-index: 2;
 
 }
+
+#skills{
+    padding-bottom: 50px;
+}
 /* 
 #skills{
     display: grid;
