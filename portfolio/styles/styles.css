@@ -201,23 +201,45 @@ header {
     grid-template-rows: 1fr;
     align-items: center;
     justify-items: center;
+    position: relative;
 }
 
-#tree{
-    border-radius: 20px;
+#tree {
+
     width: 100%;
     /* opacity: .5; */
     padding-top: 50px;
     padding-bottom: 50px;
     grid-column: 2/3;
-    
- 
+
+    z-index: 1;
 }
 
 #resume_text{
     grid-column: 2/3;
 
+    z-index: 2;
+
 }
+/* 
+#skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+
+#hard_skills{
+    grid-column: 1/2;
+}
+#soft_skills{
+    grid-column: 2/3;
+}
+#resume_grid h1{
+    text-align: center;
+} */
 
 
  /*---------------------------------------------------- footer css */
