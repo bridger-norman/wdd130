@@ -120,7 +120,7 @@ header {
     width: 80%;
     display: block;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 5px;
     /* justify-items: center;
     align-items: center; */
 
@@ -132,7 +132,7 @@ header {
  #intro{
     display: flex;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: var(--accent2-color) ;  
     justify-items: center;
     align-items: center;
@@ -203,11 +203,24 @@ header {
     justify-items: center;
     position: relative;
 }
+#resume_title{
+    grid-column: 2/3;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: var(--headline-color-on-white);
+    font-size: 4em;
+    font-family: var(--heading-font);
+    border-bottom: 4px solid var(--accent2-color);
+    border-top: 4px solid var(--accent2-color); 
+
+    /* z-index: 1;
+    position: absolute; */
+}
 
 #tree {
-
+    border-radius: 5%;
     width: 100%;
-    /* opacity: .5; */
     padding-top: 50px;
     padding-bottom: 50px;
     grid-column: 2/3;
@@ -218,8 +231,16 @@ header {
 #resume_text{
     grid-column: 2/3;
 
-    z-index: 2;
+    /* z-index: 2; */
 
+}
+
+#resume_text h1{
+    text-align: center;
+    color: var(--nav-link-color);
+    border-bottom: 4px solid var(--accent2-color);
+    border-top: 4px solid var(--accent2-color); 
+    font-size: 200%;
 }
 
 #skills{
@@ -244,6 +265,161 @@ header {
 #resume_grid h1{
     text-align: center;
 } */
+
+ /*---------------------------------------------------- projects css */
+
+ #projects_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .4fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+
+ #project_header{
+    grid-column: 1/4;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: var(--headline-color-on-white);
+    font-size: 4em;
+    font-family: var(--heading-font);
+    border-bottom: 4px solid var(--accent2-color);
+    border-top: 4px solid var(--accent2-color); 
+    margin-left: 300px;
+    margin-right: 300px; 
+ }
+
+ #projects_grid div{
+    text-align: center;
+    padding: 25px;
+ }
+
+ #time_series_img{
+    width: 14em;
+ }
+
+ #projects_grid img {
+ /* width: 65%; */
+ transition: transform .5s;
+ }
+
+#projects_grid img:hover{
+ opacity: .6;
+ transform: scale(1.1);
+}
+
+#projects_grid  h2{
+    text-align: center;
+    color: var(--nav-link-color);
+    border-bottom: 4px solid var(--accent2-color);
+    border-top: 4px solid var(--accent2-color); 
+    font-size: 200%;
+}
+
+
+ /*---------------------------------------------------- contactus css*/
+
+ #contact_header{
+    text-align: center;
+    color: var(--nav-link-color);
+    border-bottom: 4px solid var(--accent2-color);
+    border-top: 4px solid var(--accent2-color); 
+    font-size: 200%;
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-top: 8%;
+   
+ }
+ #feedback {
+    background-color: #457B9D;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+ #form h1{
+    text-align: center;
+    margin-top: 80px;
+ }
+
+ form {
+    /* Center the form on the page */
+    margin: 120px auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  
 
 
  /*---------------------------------------------------- footer css */
