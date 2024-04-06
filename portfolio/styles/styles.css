@@ -300,6 +300,9 @@ header {
  #time_series_img{
     width: 14em;
  }
+ #streamlit_img{
+    width: 12.5em;
+ }
 
  #projects_grid img {
  /* width: 65%; */
